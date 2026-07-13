@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+quality/reports/*.json
+quality/reports/*.csv
+performance/results/*
+!performance/results/.gitkeep
+.coverage

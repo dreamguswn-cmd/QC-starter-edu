@@ -1,0 +1,9 @@
+global:
+  scrape_interval: 1s
+
+scrape_configs:
+  - job_name: "ai-agent-quality"
+    metrics_path: /metrics
+    static_configs:
+      # docker compose 기준. 로컬 단독 실행 시 host.docker.internal:8000 으로 변경
+      - targets: ["app:8000"]

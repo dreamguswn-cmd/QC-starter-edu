@@ -1,0 +1,27 @@
+﻿# AI Agent 품질관리·운영 모니터링 플랫폼
+# pip install -r requirements.txt
+
+# Web Framework
+fastapi>=0.111.0
+
+
+# Data Validation
+pydantic>=2.0.0
+
+# AI / LLM
+openai>=1.30.0
+
+# Quality & Testing
+pytest>=8.0.0
+pytest-cov>=5.0.0
+   
+
+# Monitoring
+prometheus-client>=0.20.0
+
+# Dashboard
+streamlit>=1.35.0
+pandas>=2.0.0
+
+# Utilities
+python-dotenv>=1.0.0
