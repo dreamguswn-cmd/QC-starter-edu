@@ -1,0 +1,574 @@
+<?xml version='1.0' encoding='utf-8'?>
+<voc_qa_report generated_at="2026-07-16T14:32:41">
+  <summary>
+    <total>70</total>
+    <pass>65</pass>
+    <fail>5</fail>
+    <pass_rate>92.9</pass_rate>
+    <average_score>86.4</average_score>
+    <critical>false</critical>
+    <decision>조건부 배포 가능</decision>
+  </summary>
+  <results>
+    <test_case id="TC-01">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">96.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">1</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 3개, 필수요소 4개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-02">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">96.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">1</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 3개, 필수요소 3개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-03">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">79.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">2</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 2개, 필수요소 2개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-04">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">89.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">0</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 2개, 필수요소 3개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-05">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">89.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">1</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 2개, 필수요소 3개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-06">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">79.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">1</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 2개, 필수요소 2개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-07">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">79.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">1</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 2개, 필수요소 2개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-08">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">89.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">3</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 2개, 필수요소 3개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-09">
+      <field name="유형">모호한 질문</field>
+      <field name="점수">72.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">0</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 1개, 필수요소 2개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-10">
+      <field name="유형">모호한 질문</field>
+      <field name="점수">72.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">1</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 1개, 필수요소 2개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-11">
+      <field name="유형">모호한 질문</field>
+      <field name="점수">62.0</field>
+      <field name="판정">FAIL</field>
+      <field name="응답시간(ms)">1</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 1개, 필수요소 1개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-12">
+      <field name="유형">복합 불만</field>
+      <field name="점수">79.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">1</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 2개, 필수요소 2개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-13">
+      <field name="유형">복합 불만</field>
+      <field name="점수">79.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">4</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 2개, 필수요소 2개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-14">
+      <field name="유형">복합 불만</field>
+      <field name="점수">79.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">1</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 2개, 필수요소 2개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-15">
+      <field name="유형">데이터 없음</field>
+      <field name="점수">65.0</field>
+      <field name="판정">FAIL</field>
+      <field name="응답시간(ms)">2</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 0개, 필수요소 2개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-16">
+      <field name="유형">데이터 없음</field>
+      <field name="점수">65.0</field>
+      <field name="판정">FAIL</field>
+      <field name="응답시간(ms)">3</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 0개, 필수요소 2개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-17">
+      <field name="유형">오타·비문</field>
+      <field name="점수">79.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">1</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 2개, 필수요소 2개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-18">
+      <field name="유형">오타·비문</field>
+      <field name="점수">79.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">2</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 2개, 필수요소 2개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-19">
+      <field name="유형">장애 상황</field>
+      <field name="점수">27.0</field>
+      <field name="판정">FAIL</field>
+      <field name="응답시간(ms)">2</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 1개, 필수요소 1개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-20">
+      <field name="유형">장애 상황</field>
+      <field name="점수">27.0</field>
+      <field name="판정">FAIL</field>
+      <field name="응답시간(ms)">2</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 1개, 필수요소 1개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-21">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">96.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">2</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 3개, 필수요소 3개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-22">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">100.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">2</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 4개, 필수요소 3개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-23">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">89.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">1</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 2개, 필수요소 3개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-24">
+      <field name="유형">복합 불만</field>
+      <field name="점수">96.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">1</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 3개, 필수요소 5개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-25">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">96.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">3</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 3개, 필수요소 3개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-26">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">96.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">2</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 3개, 필수요소 3개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-27">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">82.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">1</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 1개, 필수요소 4개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-28">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">82.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">1</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 1개, 필수요소 3개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-29">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">82.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">3</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 1개, 필수요소 3개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-30">
+      <field name="유형">복합 불만</field>
+      <field name="점수">96.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">2</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 3개, 필수요소 4개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-31">
+      <field name="유형">복합 불만</field>
+      <field name="점수">75.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">2</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 0개, 필수요소 4개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-32">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">89.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">1</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 2개, 필수요소 4개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-33">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">96.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">1</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 3개, 필수요소 3개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-34">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">96.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">2</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 3개, 필수요소 3개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-35">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">96.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">1</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 3개, 필수요소 3개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-36">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">96.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">1</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 3개, 필수요소 3개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-37">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">96.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">2</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 3개, 필수요소 3개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-38">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">96.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">1</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 3개, 필수요소 3개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-39">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">100.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">2</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 4개, 필수요소 4개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-40">
+      <field name="유형">복합 불만</field>
+      <field name="점수">89.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">2</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 2개, 필수요소 4개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-41">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">89.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">2</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 2개, 필수요소 3개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-42">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">96.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">1</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 3개, 필수요소 3개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-43">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">89.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">1</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 2개, 필수요소 4개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-44">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">96.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">1</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 3개, 필수요소 3개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-45">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">89.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">2</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 2개, 필수요소 3개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-46">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">89.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">1</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 2개, 필수요소 4개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-47">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">89.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">1</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 2개, 필수요소 3개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-48">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">96.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">1</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 3개, 필수요소 3개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-49">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">100.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">2</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 4개, 필수요소 3개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-50">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">89.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">1</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 2개, 필수요소 3개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-51">
+      <field name="유형">복합 불만</field>
+      <field name="점수">89.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">2</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 2개, 필수요소 4개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-52">
+      <field name="유형">복합 불만</field>
+      <field name="점수">89.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">2</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 2개, 필수요소 4개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-53">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">75.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">1</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 0개, 필수요소 3개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-54">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">96.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">1</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 3개, 필수요소 3개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-55">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">89.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">1</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 2개, 필수요소 3개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-56">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">96.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">2</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 3개, 필수요소 3개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-57">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">96.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">1</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 3개, 필수요소 3개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-58">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">96.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">3</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 3개, 필수요소 3개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-59">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">89.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">1</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 2개, 필수요소 3개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-60">
+      <field name="유형">복합 불만</field>
+      <field name="점수">82.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">2</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 1개, 필수요소 4개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-61">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">82.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">2</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 1개, 필수요소 3개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-62">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">96.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">4</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 3개, 필수요소 3개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-63">
+      <field name="유형">복합 불만</field>
+      <field name="점수">89.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">1</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 2개, 필수요소 5개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-64">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">96.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">1</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 3개, 필수요소 3개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-65">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">96.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">2</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 3개, 필수요소 3개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-66">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">89.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">2</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 2개, 필수요소 3개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-67">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">89.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">2</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 2개, 필수요소 3개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-68">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">96.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">1</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 3개, 필수요소 3개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-69">
+      <field name="유형">정상 VOC</field>
+      <field name="점수">89.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">1</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 2개, 필수요소 3개, 금지요소 0개</field>
+    </test_case>
+    <test_case id="TC-70">
+      <field name="유형">복합 불만</field>
+      <field name="점수">82.0</field>
+      <field name="판정">PASS</field>
+      <field name="응답시간(ms)">2</field>
+      <field name="Critical">False</field>
+      <field name="사유">키워드 1개, 필수요소 4개, 금지요소 0개</field>
+    </test_case>
+  </results>
+</voc_qa_report>

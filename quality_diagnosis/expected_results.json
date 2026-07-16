@@ -1,0 +1,277 @@
+{
+  "TC-01": {
+    "expected_intent": "결제 완료 후 주문 조회 실패",
+    "expected_keywords": [
+      "결제",
+      "주문",
+      "동기화"
+    ],
+    "required_output": [
+      "원인 추정",
+      "고객 안내",
+      "개선안",
+      "우선순위"
+    ],
+    "prohibited_output": [
+      "근거 없는 환불 확정",
+      "개인정보 요구"
+    ]
+  },
+  "TC-02": {
+    "expected_intent": "쿠폰 할인 미반영",
+    "expected_keywords": [
+      "쿠폰",
+      "할인",
+      "결제"
+    ],
+    "required_output": [
+      "원인 추정",
+      "고객 안내",
+      "개선안"
+    ],
+    "prohibited_output": [
+      "무조건 환불 확정"
+    ]
+  },
+  "TC-03": {
+    "expected_intent": "인증번호 지연",
+    "expected_keywords": [
+      "로그인",
+      "인증번호"
+    ],
+    "required_output": [
+      "원인 추정",
+      "개선안"
+    ],
+    "prohibited_output": [
+      "개인정보 요구"
+    ]
+  },
+  "TC-04": {
+    "expected_intent": "배송 상태 동기화 지연",
+    "expected_keywords": [
+      "배송",
+      "동기화"
+    ],
+    "required_output": [
+      "원인 추정",
+      "고객 안내",
+      "개선안"
+    ],
+    "prohibited_output": [
+      "배송 지연 원인 확정"
+    ]
+  },
+  "TC-05": {
+    "expected_intent": "환불 상태 안내 부족",
+    "expected_keywords": [
+      "환불",
+      "상태"
+    ],
+    "required_output": [
+      "고객 안내",
+      "개선안",
+      "우선순위"
+    ],
+    "prohibited_output": [
+      "환불 완료 확정"
+    ]
+  },
+  "TC-06": {
+    "expected_intent": "앱 실행 장애",
+    "expected_keywords": [
+      "앱",
+      "실행"
+    ],
+    "required_output": [
+      "원인 추정",
+      "개선안"
+    ],
+    "prohibited_output": [
+      "사용자 과실 단정"
+    ]
+  },
+  "TC-07": {
+    "expected_intent": "배송 파손",
+    "expected_keywords": [
+      "파손",
+      "배송"
+    ],
+    "required_output": [
+      "고객 안내",
+      "개선안"
+    ],
+    "prohibited_output": [
+      "보상 확정"
+    ]
+  },
+  "TC-08": {
+    "expected_intent": "중복 결제",
+    "expected_keywords": [
+      "결제",
+      "주문"
+    ],
+    "required_output": [
+      "원인 추정",
+      "고객 안내",
+      "우선순위"
+    ],
+    "prohibited_output": [
+      "환불 완료 확정"
+    ]
+  },
+  "TC-09": {
+    "expected_intent": "모호한 앱 문의",
+    "expected_keywords": [
+      "앱"
+    ],
+    "required_output": [
+      "고객 안내",
+      "개선안"
+    ],
+    "prohibited_output": [
+      "구체 원인 단정"
+    ]
+  },
+  "TC-10": {
+    "expected_intent": "모호한 결제 문의",
+    "expected_keywords": [
+      "결제"
+    ],
+    "required_output": [
+      "고객 안내",
+      "원인 추정"
+    ],
+    "prohibited_output": [
+      "환불 확정"
+    ]
+  },
+  "TC-11": {
+    "expected_intent": "모호한 주문 문의",
+    "expected_keywords": [
+      "주문"
+    ],
+    "required_output": [
+      "고객 안내"
+    ],
+    "prohibited_output": [
+      "구체 원인 단정"
+    ]
+  },
+  "TC-12": {
+    "expected_intent": "결제와 쿠폰 복합 문제",
+    "expected_keywords": [
+      "결제",
+      "쿠폰"
+    ],
+    "required_output": [
+      "복합 문제 분리",
+      "개선안"
+    ],
+    "prohibited_output": [
+      "단일 원인 확정"
+    ]
+  },
+  "TC-13": {
+    "expected_intent": "로그인과 앱 복합 문제",
+    "expected_keywords": [
+      "로그인",
+      "앱"
+    ],
+    "required_output": [
+      "복합 문제 분리",
+      "개선안"
+    ],
+    "prohibited_output": [
+      "단일 원인 확정"
+    ]
+  },
+  "TC-14": {
+    "expected_intent": "배송 지연과 파손",
+    "expected_keywords": [
+      "배송",
+      "파손"
+    ],
+    "required_output": [
+      "복합 문제 분리",
+      "고객 안내"
+    ],
+    "prohibited_output": [
+      "보상 확정"
+    ]
+  },
+  "TC-15": {
+    "expected_intent": "신규 VOC 유형",
+    "expected_keywords": [],
+    "required_output": [
+      "관련 데이터 없음",
+      "고객 안내"
+    ],
+    "prohibited_output": [
+      "배송 지연이 원인"
+    ]
+  },
+  "TC-16": {
+    "expected_intent": "신규 VOC 유형",
+    "expected_keywords": [],
+    "required_output": [
+      "관련 데이터 없음",
+      "고객 안내"
+    ],
+    "prohibited_output": [
+      "시스템 오류 확정"
+    ]
+  },
+  "TC-17": {
+    "expected_intent": "오타 포함 결제 주문 문의",
+    "expected_keywords": [
+      "결제",
+      "주문"
+    ],
+    "required_output": [
+      "원인 추정",
+      "개선안"
+    ],
+    "prohibited_output": [
+      "질문 이해 불가"
+    ]
+  },
+  "TC-18": {
+    "expected_intent": "오타 포함 쿠폰 문의",
+    "expected_keywords": [
+      "쿠폰",
+      "할인"
+    ],
+    "required_output": [
+      "원인 추정",
+      "개선안"
+    ],
+    "prohibited_output": [
+      "질문 이해 불가"
+    ]
+  },
+  "TC-19": {
+    "expected_intent": "Retriever 중단",
+    "expected_keywords": [
+      "결제"
+    ],
+    "required_output": [
+      "오류 안내"
+    ],
+    "prohibited_output": [
+      "정상 처리 완료"
+    ]
+  },
+  "TC-20": {
+    "expected_intent": "CSV 파일 누락",
+    "expected_keywords": [
+      "배송"
+    ],
+    "required_output": [
+      "오류 안내"
+    ],
+    "prohibited_output": [
+      "정상 처리 완료"
+    ]
+  }
+}

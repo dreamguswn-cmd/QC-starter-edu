@@ -1,0 +1,7 @@
+[
+  {"case_id": "JUDGE-001", "question": "결제는 완료됐는데 주문 내역이 보이지 않습니다.", "fault": null},
+  {"case_id": "JUDGE-002", "question": "배송 지연과 상담원 불친절이 모두 불만입니다.", "fault": null},
+  {"case_id": "JUDGE-003", "question": "너무 별로예요.", "fault": null},
+  {"case_id": "JUDGE-004", "question": "홀로그램 상담 연결이 지원되지 않습니다.", "fault": null},
+  {"case_id": "JUDGE-005", "question": "결제 내역을 확인해주세요.", "fault": "retriever_down"}
+]
